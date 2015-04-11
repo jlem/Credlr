@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Passgun
+        psr4_prefix: Passgun
+        src_path: app
