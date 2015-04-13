@@ -1,4 +1,4 @@
-<?php namespace Passgun\Commands;
+<?php namespace Credlr\Commands;
 
 abstract class Command {
 

@@ -1,4 +1,4 @@
-<?php namespace Passgun\Events;
+<?php namespace Credlr\Events;
 
 abstract class Event {
 

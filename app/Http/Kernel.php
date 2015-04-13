@@ -1,4 +1,4 @@
-<?php namespace Passgun\Http;
+<?php namespace Credlr\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'Passgun\Http\Middleware\VerifyCsrfToken',
+		'Credlr\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => 'Passgun\Http\Middleware\Authenticate',
+		'auth' => 'Credlr\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => 'Passgun\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'Credlr\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

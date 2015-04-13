@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
 	'Illuminate\Contracts\Http\Kernel',
-	'Passgun\Http\Kernel'
+	'Credlr\Http\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Console\Kernel',
-	'Passgun\Console\Kernel'
+	'Credlr\Console\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
-	'Passgun\Exceptions\Handler'
+	'Credlr\Exceptions\Handler'
 );
 
 /*

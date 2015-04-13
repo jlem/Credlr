@@ -1,5 +1,5 @@
 <div id="nav">
-    <a href="/">Passgun</a>
+    <a href="/">Credlr</a>
     <div id="auth">
         @if (Auth::check())
             {{ Auth::user()->name }} <a href="/logout"> Logout</a>

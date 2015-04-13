@@ -1,4 +1,4 @@
-<?php namespace Passgun\Http\Requests;
+<?php namespace Credlr\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

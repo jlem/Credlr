@@ -1,4 +1,4 @@
-<?php namespace Passgun\Providers;
+<?php namespace Credlr\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, 'Passgun\Commands', 'Passgun\Handlers\Commands'
+				$command, 'Credlr\Commands', 'Credlr\Handlers\Commands'
 			);
 		});
 	}

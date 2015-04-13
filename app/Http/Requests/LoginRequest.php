@@ -1,4 +1,4 @@
-<?php namespace Passgun\Http\Requests;
+<?php namespace Credlr\Http\Requests;
 
 class LoginRequest extends Request
 {

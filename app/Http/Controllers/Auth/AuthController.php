@@ -1,12 +1,12 @@
-<?php namespace Passgun\Http\Controllers\Auth;
+<?php namespace Credlr\Http\Controllers\Auth;
 
-use Passgun\Http\Requests\LoginRequest;
-use Passgun\Http\Controllers\Controller;
+use Credlr\Http\Requests\LoginRequest;
+use Credlr\Http\Controllers\Controller;
 use Auth;
 
-class LoginController extends Controller {
+class AuthController extends Controller {
 
-    public function show()
+    public function showLoginForm()
     {
         return view('auth.login');
     }

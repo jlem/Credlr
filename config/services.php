@@ -30,7 +30,7 @@ return [
 	],
 
 	'stripe' => [
-		'model'  => 'Passgun\User',
+		'model'  => 'Credlr\User',
 		'key' => '',
 		'secret' => '',
 	],

@@ -11,6 +11,4 @@
         </div>
         {!! Form::submit('Login') !!}
     {!! Form::close() !!}
-
-    {!! var_dump($errors) !!}
 @stop

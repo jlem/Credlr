@@ -140,11 +140,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'Passgun\Providers\AppServiceProvider',
-		'Passgun\Providers\BusServiceProvider',
-		'Passgun\Providers\ConfigServiceProvider',
-		'Passgun\Providers\EventServiceProvider',
-		'Passgun\Providers\RouteServiceProvider',
+		'Credlr\Providers\AppServiceProvider',
+		'Credlr\Providers\BusServiceProvider',
+		'Credlr\Providers\ConfigServiceProvider',
+		'Credlr\Providers\EventServiceProvider',
+		'Credlr\Providers\RouteServiceProvider',
 
 	],
 

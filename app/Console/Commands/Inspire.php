@@ -1,4 +1,4 @@
-<?php namespace Passgun\Console\Commands;
+<?php namespace Credlr\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

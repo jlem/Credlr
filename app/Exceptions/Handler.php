@@ -1,4 +1,4 @@
-<?php namespace Passgun\Exceptions;
+<?php namespace Credlr\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

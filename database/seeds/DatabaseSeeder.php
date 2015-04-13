@@ -18,12 +18,12 @@ class DatabaseSeeder extends Seeder {
 
 	private function createUsers()
 	{
-		Passgun\User::create([
+		Credlr\User::create([
 			'name' => 'Dave',
 			'email' => 'dave@dave.com',
 			'password' => \Hash::make('test'),
 		]);
-		Passgun\User::create([
+		Credlr\User::create([
 			'name' => 'Jon',
 			'email' => 'jon@jon.com',
 			'password' => \Hash::make('test'),

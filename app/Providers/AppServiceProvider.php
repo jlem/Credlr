@@ -1,4 +1,4 @@
-<?php namespace Passgun\Providers;
+<?php namespace Credlr\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

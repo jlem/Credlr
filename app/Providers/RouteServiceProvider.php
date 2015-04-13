@@ -1,4 +1,4 @@
-<?php namespace Passgun\Providers;
+<?php namespace Credlr\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider {
 	 *
 	 * @var string
 	 */
-	protected $namespace = 'Passgun\Http\Controllers';
+	protected $namespace = 'Credlr\Http\Controllers';
 
 	/**
 	 * Define your route model bindings, pattern filters, etc.

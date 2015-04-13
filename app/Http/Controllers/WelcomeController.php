@@ -1,4 +1,4 @@
-<?php namespace Passgun\Http\Controllers;
+<?php namespace Credlr\Http\Controllers;
 
 class WelcomeController extends Controller {
 

@@ -1,4 +1,4 @@
-<?php namespace Passgun\Http\Middleware;
+<?php namespace Credlr\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

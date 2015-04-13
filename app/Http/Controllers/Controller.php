@@ -1,4 +1,4 @@
-<?php namespace Passgun\Http\Controllers;
+<?php namespace Credlr\Http\Controllers;
 
 use Illuminate\Validation\Validator;
 use Illuminate\Foundation\Bus\DispatchesCommands;

@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Passgun
-        psr4_prefix: Passgun
+        namespace: Credlr
+        psr4_prefix: Credlr
         src_path: app
